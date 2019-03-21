@@ -1,0 +1,26 @@
+<html>
+	<head>
+	<title>Atividade java 3</title>
+	<meta charset="utf-8" />
+	<script type="text/javascript">
+	function teste(valor) {
+			if( valor=="VM" ){
+				document.body.style.backgroundColor = 'red';}
+			if( valor=="VD" ){
+				document.body.style.backgroundColor = 'green';}
+			if( valor=="AZ" ){
+				document.body.style.backgroundColor = 'blue';}
+			if( valor=="AM" ){
+				document.body.style.backgroundColor = 'yellow';	} }
+	</script>
+	</head>
+<body>
+	<select name="teste" id="teste" onchange="teste( this.value );">
+			<option value="">Escolha uma cor</option>
+			<option value="VM">VERMELHO</option>
+			<option value="VD">VERDE</option>
+			<option value="AZ">AZUL</option>
+			<option value="AM">AMARELO</option>
+	</select>
+</body>
+</html>

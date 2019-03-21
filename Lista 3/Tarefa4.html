@@ -1,0 +1,18 @@
+<html>
+<head>
+		<title>atividade Java 4</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript">
+			function Mudarestado(muda) {
+		        var display = document.getElementById(muda).style.display;
+		        if(display == "none"){
+           		 document.getElementById(muda).style.display = 'block'; }
+        		else{
+            		document.getElementById(muda).style.display = 'none';	}}
+		</script>
+</head>
+<body>
+		<p id="TEXTO">O java Script é uma linguagem usada por milhoes de paginas na WEB </p>
+		<button type="button" onclick="Mudarestado('TEXTO')">Ocultar/Mostrar</button>
+	</body>
+</html>
